@@ -1,0 +1,13 @@
+.element__image {
+  display: grid;
+  background-color: gray;
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.element__image:hover {
+  cursor: pointer;
+}

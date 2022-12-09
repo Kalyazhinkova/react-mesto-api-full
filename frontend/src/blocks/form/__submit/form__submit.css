@@ -1,0 +1,6 @@
+.form__submit {
+  display: flex;
+  flex-direction: column;
+  margin: 216px 0 0 0;
+  padding: 0;
+}

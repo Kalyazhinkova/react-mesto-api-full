@@ -1,0 +1,11 @@
+.form__link {
+  padding: 0 0 0 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+
+  color: #ffffff;
+}
