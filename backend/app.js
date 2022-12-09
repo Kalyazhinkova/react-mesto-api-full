@@ -39,6 +39,8 @@ export const run = async (envName) => {
     const allowedCors = [
       'https://kalyazhinkova.mestoback.nomoredomains.club',
       'http://kalyazhinkova.mestoback.nomoredomains.club',
+      'http://kalyazhinkova.mestofront.nomoredomains.club',
+      'https://kalyazhinkova.mestofront.nomoredomains.club',
       'localhost:3000'];
 
     app.use(cors({
