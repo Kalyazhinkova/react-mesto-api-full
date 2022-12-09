@@ -37,10 +37,10 @@ export const run = async (envName) => {
 
     // Массив доменов, с которых разрешены кросс-доменные запросы
     const allowedCors = [
-      'https://kalyazhinkova.mestoback.nomoredomains.club',
-      'http://kalyazhinkova.mestoback.nomoredomains.club',
-      'http://kalyazhinkova.mestofront.nomoredomains.club',
-      'https://kalyazhinkova.mestofront.nomoredomains.club',
+      'https://api.kalyazhinkova.mesto.nomoredomains.club',
+      'http://api.kalyazhinkova.mesto.nomoredomains.club',
+      'http://kalyazhinkova.mesto.nomoredomains.club',
+      'https://kalyazhinkova.mesto.nomoredomains.club',
       'localhost:3000'];
 
     app.use(cors({
